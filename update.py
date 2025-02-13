@@ -27,8 +27,8 @@ system('rm -rf version.txt')
 sleep(0.1)
 system('wget https://raw.githubusercontent.com/hanx-666/spam-wa/main/spam.php')
 system('wget https://raw.githubusercontent.com/hanx-666/spam-wa/main/version.txt')
-print(r+"└─ "+w+"\033[1;37m>> Script Updated <<")
-sleep(0.5)
+print(r+"└─ "+w+"\033[1;37m>> Script sukses di update<<")
+sleep(1.5)
 
 # ---------return to spam.php file 
 system('php spam.php')
