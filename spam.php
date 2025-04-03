@@ -1,5 +1,9 @@
 <?php
 
+# ya bang? gapapa recode aja 
+# kalo lu baik hati, jangan lupa kasih credit gw yak
+# updated 03 April 2025
+
 #WARNA
 function color($color = "default" , $text  = null)
     {
