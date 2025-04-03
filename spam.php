@@ -245,17 +245,7 @@ echo shell_exec("cowsay -f eyes 'Code By HanX' | lolcat 2>&1");
 echo color("green","\n\n\nEnter Phone Number (Using 08) : ");
 //$nomor = '083117295526';
 $nomor = trim(fgets(STDIN)); #08xxx
-if ($nomor == '083117295526') {
-  echo color("red"," Maksud lu apa mau nge spam gw?\n");
-  sleep(5);
-  goto lagi;
-}
-if ($nomor == '085852352107') {
-  echo color("red"," Maksud lu apa mau nge spam gw?\n");
-  sleep(5);
-  goto lagi;
-}
-if ($nomor == '085691587665') {
+if ($nomor == '-') {
   echo color("red"," Maksud lu apa mau nge spam gw?\n");
   sleep(5);
   goto lagi;
@@ -1099,20 +1089,10 @@ echo color("green"," Spam pesan bebas (Tahap Pengembangan)\n\n\n");
 echo color("green"," NOMOR TARGET 08xx: ");
 //$nomor = '083117295526';
 $nomor = trim(fgets(STDIN)); #08xxx
-if ($nomor == '083117295526') {
+if ($nomor == '-') {
   echo color("red"," Maksud lu apa mau nge spam gw?\n");
   sleep(5);
   goto pesan;
-}
-if ($nomor == '085852352107') {
-  echo color("red"," Maksud lu apa mau nge spam gw?\n");
-  sleep(5);
-  goto pesan;
-}
-if ($nomor == '085691587665') {
-  echo color("red"," Maksud lu apa mau nge spam gw?\n");
-  sleep(5);
-  goto lagi;
 }
 $nomor2 = ltrim($nomor, '0'); #8xxx
 
